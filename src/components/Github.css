@@ -1,0 +1,75 @@
+.github-profile-container {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 600px; /* Adjusted maximum width for better proportion */
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f8f9fa; /* Light gray background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added subtle box-shadow */
+  }
+  
+  .input-wrapper {
+    display: flex;
+    align-items: center; /* Center align the input and button vertically */
+    margin-bottom: 20px;
+  }
+  
+  .input-wrapper input {
+    flex: 1; /* Let the input grow to fill the available space */
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ced4da; /* Light border */
+    border-radius: 8px;
+    outline: none; /* Remove outline on focus */
+  }
+  
+  .input-wrapper button {
+    padding: 12px 20px; /* Increased padding for better click area */
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff; /* Blue button background */
+    color: #fff; /* White text color */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .input-wrapper button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .github-profile-container h1 {
+    text-align: center; /* Center align the loading message */
+  }
+  
+  .user {
+    margin-top: 20px; /* Add some space between input and user profile */
+  }
+  
+  /* Define styles for user profile */
+  .user-info {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .avatar {
+    width: 150px; /* Maintain aspect ratio */
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto; /* Center align the avatar */
+    display: block;
+  }
+  
+  .user-info h2 {
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .user-info p {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+  }
+  

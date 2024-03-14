@@ -1,0 +1,16 @@
+h1{
+    font-size: xx-large;
+    color: darkturquoise;
+}
+img{
+    width: 560px;
+}
+.photo{
+    cursor: progress;
+    width: 500px;
+    height: 500px;
+    border: 5px;
+}
+.list1{
+    color: crimson;
+}
